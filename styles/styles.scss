@@ -1,8 +1,14 @@
-@use "resets";
-@use "functions";
-@use "variables";
-@use "typography";
+@import "resets";
+@import "functions";
+@import "variables";
+@import "typography";
+@import "buttons";
 
+body {
+  line-height: 1.5;
+  font-family: $ff-josefin;
+  font-size: 1.6rem;
+}
 /* Footer */
 .attribution {
   font-size: 11px;

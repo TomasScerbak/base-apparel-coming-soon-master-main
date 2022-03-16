@@ -6,22 +6,6 @@ $ff-josefin: "Josefin Sans", sans-serif;
 html {
   font-size: 62.5%;
 }
-h1 {
-  font-size: 3.6rem;
-  color: $dark-blue-color;
-  margin-bottom: 0;
-
-  @media screen and (min-width: $x-small) {
-    font-size: 5.6rem;
-  }
-  @media screen and (min-width: $large) {
-    font-size: 7.2rem;
-  }
-}
-h2 {
-  font-size: 1.8rem;
-  font-weight: weigth(bold);
-}
 /* Links */
 a {
   text-decoration: none;
@@ -33,8 +17,4 @@ li {
 /* Images */
 img {
   width: 100%;
-}
-/* Spans */
-span {
-  font-weight: weight(regular);
 }
