@@ -6,6 +6,7 @@
 @import "buttons";
 @import "forms";
 
+/* Body */
 body {
   line-height: 1.5;
   font-family: $ff-josefin;
@@ -13,6 +14,10 @@ body {
   margin: 0;
   overflow: hidden;
   height: 100vh;
+}
+/* Card Component */
+.card {
+  margin: 0 3.8rem;
 }
 /* Footer */
 .attribution {

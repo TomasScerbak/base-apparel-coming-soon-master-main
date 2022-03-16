@@ -93,7 +93,7 @@ img {
 
 .btn--primary {
   position: absolute;
-  right: -10%;
+  right: 0;
   top: -5%;
   background: #f8bfbf;
   background: linear-gradient(135deg, #f8bfbf 15%, #f7bbbb 33%, #ee8c8c 68%);
@@ -129,6 +129,7 @@ form {
   border: none;
 }
 
+/* Body */
 body {
   line-height: 1.5;
   font-family: "Josefin Sans", sans-serif;
@@ -136,6 +137,11 @@ body {
   margin: 0;
   overflow: hidden;
   height: 100vh;
+}
+
+/* Card Component */
+.card {
+  margin: 0 3.8rem;
 }
 
 /* Footer */
