@@ -64,6 +64,9 @@ img {
 }
 
 .btn--primary {
+  position: absolute;
+  top: -22%;
+  right: 10%;
   background: #f8bfbf;
   background: linear-gradient(135deg, #f8bfbf 15%, #f7bbbb 33%, #ee8c8c 68%);
 }
