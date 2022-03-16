@@ -1,4 +1,10 @@
 form {
-  position: relative;
   @include flexCenter(row);
+}
+.input-group {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
 }

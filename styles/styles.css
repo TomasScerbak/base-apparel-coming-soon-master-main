@@ -29,11 +29,39 @@ img {
   width: 100%;
 }
 
+::-webkit-input-placeholder {
+  opacity: 50%;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+}
+
+:-ms-input-placeholder {
+  opacity: 50%;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+}
+
+::-ms-input-placeholder {
+  opacity: 50%;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+}
+
+::placeholder {
+  opacity: 50%;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+}
+
 .input {
   outline: none;
+  border: none;
+  padding: 1.5rem 12.5rem 1.2rem 2.4rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   border: 0.5px solid #f96262;
   border-radius: 30px;
-  padding: 1.5rem 12.5rem 1.5rem 2.4rem;
 }
 
 .btn {
@@ -65,14 +93,12 @@ img {
 
 .btn--primary {
   position: absolute;
-  top: -2%;
-  right: 12%;
+  right: -10%;
   background: #f8bfbf;
   background: linear-gradient(135deg, #f8bfbf 15%, #f7bbbb 33%, #ee8c8c 68%);
 }
 
 form {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -86,6 +112,20 @@ form {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.input-group {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
 }
 
 body {

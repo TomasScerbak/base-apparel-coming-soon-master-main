@@ -18,3 +18,8 @@ li {
 img {
   width: 100%;
 }
+::placeholder {
+  opacity: 50%;
+  font-family: $ff-josefin;
+  font-size: 1.4rem;
+}
