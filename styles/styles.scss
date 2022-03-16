@@ -17,7 +17,16 @@ body {
 }
 /* Card Component */
 .card {
+  text-align: center;
   margin: 0 3.8rem;
+
+  .card__heading {
+    margin-bottom: 1.6rem;
+  }
+
+  .card__text {
+    margin-bottom: 3.2rem;
+  }
 }
 /* Footer */
 .attribution {

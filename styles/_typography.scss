@@ -18,6 +18,25 @@ li {
 img {
   width: 100%;
 }
+h1 {
+  font-weight: weight("semi-bold");
+  font-size: 4rem;
+  color: $dark-grayish-red;
+  letter-spacing: 10.83px;
+  line-height: 4.2rem;
+  text-transform: uppercase;
+}
+p {
+  color: $desaturated-red;
+  font-weight: weight("light");
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+}
+span {
+  font-weight: weight("light");
+  color: $desaturated-red;
+  text-transform: uppercase;
+}
 ::placeholder {
   opacity: 50%;
   font-family: $ff-josefin;

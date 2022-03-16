@@ -29,6 +29,28 @@ img {
   width: 100%;
 }
 
+h1 {
+  font-weight: 600;
+  font-size: 4rem;
+  color: #413a3a;
+  letter-spacing: 10.83px;
+  line-height: 4.2rem;
+  text-transform: uppercase;
+}
+
+p {
+  color: #ce9797;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+}
+
+span {
+  font-weight: 300;
+  color: #ce9797;
+  text-transform: uppercase;
+}
+
 ::-webkit-input-placeholder {
   opacity: 50%;
   font-family: "Josefin Sans", sans-serif;
@@ -94,7 +116,7 @@ img {
 .btn--primary {
   position: absolute;
   right: 0;
-  top: -5%;
+  top: -3%;
   background: #f8bfbf;
   background: linear-gradient(135deg, #f8bfbf 15%, #f7bbbb 33%, #ee8c8c 68%);
 }
@@ -141,7 +163,16 @@ body {
 
 /* Card Component */
 .card {
+  text-align: center;
   margin: 0 3.8rem;
+}
+
+.card .card__heading {
+  margin-bottom: 1.6rem;
+}
+
+.card .card__text {
+  margin-bottom: 3.2rem;
 }
 
 /* Footer */
