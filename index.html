@@ -24,7 +24,15 @@
         />
       </div>
       <div class="heading-image">
-        <img src="/images/hero-mobile.jpg" alt="" />
+        <picture>
+          <source media="(min-width: 900px)" srcset="images/hero-desktop.jpg" />
+          <source media="(min-width: 480px)" srcset="images/hero-mobile.jpg" />
+          <img
+            class="image"
+            src="images/hero-mobile.jpg"
+            alt="image of a girl with curly hair"
+          />
+        </picture>
       </div>
     </header>
     <main>
