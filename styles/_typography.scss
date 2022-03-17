@@ -26,6 +26,12 @@ h1 {
   letter-spacing: 10.83px;
   line-height: 4.2rem;
   text-transform: uppercase;
+
+  @media screen and (min-width: $x-small) {
+    font-size: 6.4rem;
+    letter-spacing: 17.32px;
+    line-height: 7.1rem;
+  }
 }
 span {
   font-weight: weight("light");

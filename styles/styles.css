@@ -39,6 +39,14 @@ h1 {
   text-transform: uppercase;
 }
 
+@media screen and (min-width: 575.98px) {
+  h1 {
+    font-size: 6.4rem;
+    letter-spacing: 17.32px;
+    line-height: 7.1rem;
+  }
+}
+
 span {
   font-weight: 300;
   color: #ce9797;
