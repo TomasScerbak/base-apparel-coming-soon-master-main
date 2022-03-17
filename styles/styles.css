@@ -27,6 +27,7 @@ li {
 /* Images */
 img {
   width: 100%;
+  display: block;
 }
 
 h1 {
@@ -180,17 +181,8 @@ body {
   line-height: 1.5;
   font-size: 1.6rem;
   margin: 0;
+  overflow: hidden;
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 /* Container */

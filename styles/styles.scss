@@ -12,11 +12,8 @@ body {
   line-height: 1.5;
   font-size: 1.6rem;
   margin: 0;
-  // overflow: hidden;
+  overflow: hidden;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 /* Container */
 .container {
