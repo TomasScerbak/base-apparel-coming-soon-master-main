@@ -13,73 +13,72 @@
     <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
   <body>
-    <div class="body-wrapper">
-      <main>
-        <div class="container">
-          <div class="heading">
-            <img
-              class="logo"
-              src="images/logo.svg"
-              alt="logo of the company with name Base Apparel"
+    <main>
+      <div class="container">
+        <div class="heading">
+          <img
+            class="logo"
+            src="images/logo.svg"
+            alt="logo of the company with name Base Apparel"
+          />
+        </div>
+        <div class="heading-image">
+          <picture>
+            <source
+              media="(min-width: 900px)"
+              srcset="images/hero-desktop.jpg"
             />
-          </div>
-          <div class="heading-image">
-            <picture>
-              <source
-                media="(min-width: 900px)"
-                srcset="images/hero-desktop.jpg"
-              />
-              <source
-                media="(min-width: 480px)"
-                srcset="images/hero-mobile.jpg"
+            <source
+              media="(min-width: 480px)"
+              srcset="images/hero-mobile.jpg"
+            />
+            <img
+              class="image"
+              src="images/hero-mobile.jpg"
+              alt="image of a girl with curly hair"
+            />
+          </picture>
+        </div>
+        <div class="card">
+          <h1 class="card__heading"><span>We're</span> coming soon</h1>
+          <p class="card__text">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+          <form id="form" action="#">
+            <div class="input-group">
+              <input
+                class="input"
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Email Address"
               />
               <img
-                class="image"
-                src="images/hero-mobile.jpg"
-                alt="image of a girl with curly hair"
+                id="error-icon"
+                class="error hidden"
+                src="images/icon-error.svg"
+                alt=""
               />
-            </picture>
-          </div>
-          <div class="card">
-            <h1 class="card__heading"><span>We're</span> coming soon</h1>
-            <p class="card__text">
-              Hello fellow shoppers! We're currently building our new fashion
-              store. Add your email below to stay up-to-date with announcements
-              and our launch deals.
-            </p>
-            <form id="form" action="#">
-              <div class="input-group">
-                <input
-                  class="input"
-                  type="text"
-                  name="email"
-                  id="email"
-                  placeholder="Email Address"
-                />
-                <img
-                  id="error-icon"
-                  class="error hidden"
-                  src="images/icon-error.svg"
-                  alt=""
-                />
-                <button class="btn btn--primary" type="submit">
-                  <img src="images/icon-arrow.svg" alt="submit button" />
-                </button>
-              </div>
-            </form>
-            <p id="error-text" class="error-message hidden"></p>
-          </div>
+              <button class="btn btn--primary" type="submit">
+                <img src="images/icon-arrow.svg" alt="submit button" />
+              </button>
+            </div>
+          </form>
+          <p id="error-text" class="error-message hidden"></p>
         </div>
-      </main>
-      <footer>
-        <p class="attribution">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by <a href="#">Tomas Scerbak</a>.
-        </p>
-      </footer>
-    </div>
+      </div>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Tomas Scerbak</a>.
+      </p>
+    </footer>
+
     <script src="index.js"></script>
   </body>
 </html>

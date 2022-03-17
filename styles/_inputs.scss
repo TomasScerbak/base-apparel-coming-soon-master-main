@@ -17,6 +17,7 @@
 .input-group {
   position: relative;
   border: none;
+  @include flexCenter(row);
 }
 
 input[type="text"] {
