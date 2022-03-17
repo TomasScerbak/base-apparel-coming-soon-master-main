@@ -47,7 +47,7 @@
               store. Add your email below to stay up-to-date with announcements
               and our launch deals.
             </p>
-            <form action="#">
+            <form id="form" action="#">
               <div class="input-group">
                 <input
                   class="input"
@@ -56,13 +56,18 @@
                   id="email"
                   placeholder="Email Address"
                 />
-                <img class="error hidden" src="images/icon-error.svg" alt="" />
+                <img
+                  id="error-icon"
+                  class="error hidden"
+                  src="images/icon-error.svg"
+                  alt=""
+                />
                 <button class="btn btn--primary" type="submit">
                   <img src="images/icon-arrow.svg" alt="submit button" />
                 </button>
               </div>
             </form>
-            <p class="error-message hidden">Please provide valid email</p>
+            <p id="error-text" class="error-message hidden"></p>
           </div>
         </div>
       </main>
