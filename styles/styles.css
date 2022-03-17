@@ -189,10 +189,6 @@ form {
 }
 
 /* Class to hide elements on page with JS */
-.hidden {
-  display: none;
-}
-
 /* Body */
 body {
   font-family: "Josefin Sans", sans-serif;
@@ -327,6 +323,12 @@ body {
   color: #f96262;
   padding-left: 2.2rem;
   margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 575.98px) {
+  .card .error-message {
+    padding-left: 1.2rem;
+  }
 }
 
 /* Footer */
