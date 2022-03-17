@@ -241,6 +241,13 @@ body {
 }
 
 @media screen and (min-width: 575.98px) {
+  .heading .logo {
+    width: 15.8rem;
+    height: 3.3rem;
+  }
+}
+
+@media screen and (min-width: 575.98px) {
   .heading-image {
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
