@@ -30,8 +30,8 @@ body {
   align-items: center;
 
   @media screen and (min-width: $x-small) {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
   }
 }
 /* Heading */
