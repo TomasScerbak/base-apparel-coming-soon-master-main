@@ -329,6 +329,12 @@ body {
   }
 }
 
+@media screen and (min-width: 767.98px) {
+  .card .error-message {
+    padding-left: 2.7rem;
+  }
+}
+
 /* Footer */
 .attribution {
   margin-top: 10rem;
