@@ -43,6 +43,10 @@ body {
     margin: 7.5rem auto 10rem 16.5rem;
   }
 
+  @media screen and (min-width: $large) {
+    margin: 7.5rem auto 10rem 25rem;
+  }
+
   .logo {
     width: 10rem;
     height: 2.1rem;
@@ -69,6 +73,10 @@ body {
     text-align: left;
     width: 43%;
     margin: 0 auto auto 16.5rem;
+  }
+
+  @media screen and (min-width: $large) {
+    margin: 0 auto auto 25rem;
   }
 
   .card__heading {

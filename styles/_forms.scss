@@ -1,8 +1,13 @@
 form {
   @include flexCenter(row);
+  width: 100%;
 }
 .input-group {
   position: relative;
   @include flexCenter(row);
   border: none;
+
+  @media screen and (min-width: $large) {
+    margin-right: 17rem;
+  }
 }
