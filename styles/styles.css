@@ -26,7 +26,13 @@ li {
 
 /* Images */
 img {
-  display: block;
+  width: 100%;
+}
+
+@media screen and (min-width: 575.98px) {
+  img {
+    width: auto;
+  }
 }
 
 h1 {

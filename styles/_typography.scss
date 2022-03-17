@@ -16,7 +16,11 @@ li {
 }
 /* Images */
 img {
-  display: block;
+  width: 100%;
+
+  @media screen and (min-width: $x-small) {
+    width: auto;
+  }
 }
 h1 {
   font-weight: weight("semi-bold");
