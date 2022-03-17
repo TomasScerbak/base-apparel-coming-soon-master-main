@@ -14,7 +14,20 @@ body {
   margin: 0;
   overflow: hidden;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+/* Heading */
+.heading {
+  margin: 3.1rem auto 3.2rem 3.2rem;
+
+  .logo {
+    width: 10rem;
+    height: 2.1rem;
+  }
+}
+
 /* Card Component */
 .card {
   text-align: center;
@@ -25,8 +38,13 @@ body {
   }
 
   .card__text {
+    color: $desaturated-red;
+    font-weight: weight("light");
+    font-size: 1.4rem;
+    line-height: 2.2rem;
     margin-bottom: 3.2rem;
   }
+
   .error {
     position: absolute;
     width: 2.4rem;
@@ -36,6 +54,15 @@ body {
     @media screen and (min-width: $large) {
       right: 28%;
     }
+  }
+
+  .error-message {
+    text-align: left;
+    font-weight: weight("regular");
+    font-size: 1.3rem;
+    color: $soft-red;
+    padding-left: 2.2rem;
+    margin-top: 0.5rem;
   }
 }
 
