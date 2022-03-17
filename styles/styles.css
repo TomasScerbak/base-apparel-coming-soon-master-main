@@ -248,6 +248,14 @@ body {
   margin: 0 3.8rem;
 }
 
+@media screen and (min-width: 575.98px) {
+  .card {
+    text-align: left;
+    width: 43%;
+    margin: 0;
+  }
+}
+
 .card .card__heading {
   margin-bottom: 1.6rem;
 }

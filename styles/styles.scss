@@ -54,6 +54,12 @@ body {
   text-align: center;
   margin: 0 3.8rem;
 
+  @media screen and (min-width: $x-small) {
+    text-align: left;
+    width: 43%;
+    margin: 0;
+  }
+
   .card__heading {
     margin-bottom: 1.6rem;
   }
