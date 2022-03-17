@@ -114,6 +114,17 @@ span {
   }
 }
 
+@media screen and (min-width: 1399.98) {
+  .input {
+    padding: 2rem 20.9rem 1.8rem 3.2rem;
+  }
+}
+
+.input-group {
+  position: relative;
+  border: none;
+}
+
 input[type="text"] {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
@@ -158,9 +169,9 @@ form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -168,31 +179,6 @@ form {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 100%;
-}
-
-.input-group {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  border: none;
-}
-
-@media screen and (min-width: 1199.98px) {
-  .input-group {
-    margin-right: 17rem;
-  }
 }
 
 /* Class to hide elements on page with JS */
@@ -252,15 +238,9 @@ body {
   margin: 3.1rem auto 3.2rem 3.2rem;
 }
 
-@media screen and (min-width: 575.98px) {
-  .heading {
-    margin: 7.5rem auto 10rem 16.5rem;
-  }
-}
-
 @media screen and (min-width: 1199.98px) {
   .heading {
-    margin: 7.5rem auto 10rem 25rem;
+    margin: 7.5rem auto 10rem 16.5rem;
   }
 }
 
@@ -303,7 +283,7 @@ body {
 
 @media screen and (min-width: 1199.98px) {
   .card {
-    margin: 0 auto auto 25rem;
+    margin: 0 auto auto 16.5rem;
   }
 }
 
@@ -356,6 +336,7 @@ body {
 
 /* Footer */
 .attribution {
+  margin-top: 10rem;
   font-size: 1.1rem;
   text-align: center;
 }

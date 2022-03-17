@@ -39,12 +39,8 @@ body {
 .heading {
   margin: 3.1rem auto 3.2rem 3.2rem;
 
-  @media screen and (min-width: $x-small) {
-    margin: 7.5rem auto 10rem 16.5rem;
-  }
-
   @media screen and (min-width: $large) {
-    margin: 7.5rem auto 10rem 25rem;
+    margin: 7.5rem auto 10rem 16.5rem;
   }
 
   .logo {
@@ -76,7 +72,7 @@ body {
   }
 
   @media screen and (min-width: $large) {
-    margin: 0 auto auto 25rem;
+    margin: 0 auto auto 16.5rem;
   }
 
   .card__heading {
@@ -123,6 +119,7 @@ body {
 
 /* Footer */
 .attribution {
+  margin-top: 10rem;
   font-size: 1.1rem;
   text-align: center;
 
