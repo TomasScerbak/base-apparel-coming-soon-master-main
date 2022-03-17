@@ -189,6 +189,10 @@ form {
 }
 
 /* Class to hide elements on page with JS */
+.hidden {
+  display: none;
+}
+
 /* Body */
 body {
   font-family: "Josefin Sans", sans-serif;
