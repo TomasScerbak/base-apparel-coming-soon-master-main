@@ -28,7 +28,6 @@ email.addEventListener('keydown', function(e) {
 
 email.addEventListener('change', function(event) {
         let value = (event.target.value);
-        console.log(value);
 
        if (value.match(pattern)) {
         
