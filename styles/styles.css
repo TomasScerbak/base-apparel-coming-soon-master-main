@@ -276,6 +276,13 @@ body {
   margin-bottom: 3.2rem;
 }
 
+@media screen and (min-width: 575.98px) {
+  .card .card__text {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
+}
+
 .card .error {
   position: absolute;
   width: 2.4rem;
