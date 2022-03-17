@@ -41,4 +41,8 @@ span {
   opacity: 50%;
   font-family: $ff-josefin;
   font-size: 1.4rem;
+
+  @media screen and (min-width: $large) {
+    font-size: 1.6rem;
+  }
 }

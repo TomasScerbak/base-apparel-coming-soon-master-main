@@ -5,7 +5,7 @@
   cursor: pointer;
   text-align: center;
   white-space: nowrap;
-  padding: 1.2rem 2.8rem;
+  padding: 1rem 2.8rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   transition: all 0.2s;
@@ -17,14 +17,14 @@
   }
 
   @media screen and (min-width: $large) {
-    padding: 1.9rem 4.6rem;
+    padding: 1.5rem 4.6rem;
   }
 }
 
 .btn--primary {
   position: absolute;
   right: 0;
-  top: -3%;
+  top: 0%;
   background: rgb(248, 191, 191);
   background: linear-gradient(
     135deg,
