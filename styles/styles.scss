@@ -21,6 +21,7 @@ body {
   display: grid;
   justify-items: left;
   align-items: center;
+  position: relative;
 
   @media screen and (min-width: $x-small) {
     grid-template-columns: repeat(2, auto);
@@ -124,4 +125,20 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+/* background pattern */
+.bg-pattern {
+  display: block;
+  position: absolute;
+  width: 55%;
+  height: 100%;
+  z-index: -1;
+
+  @media screen and (max-width: $large) {
+    display: none;
+  }
+
+  @media screen and (min-width: $large) {
+    width: 80%;
+  }
 }

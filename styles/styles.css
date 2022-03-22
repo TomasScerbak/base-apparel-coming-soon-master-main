@@ -217,6 +217,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
 @media screen and (min-width: 575.98px) {
@@ -350,5 +351,26 @@ body {
 
 .attribution a {
   color: #3e52a3;
+}
+
+/* background pattern */
+.bg-pattern {
+  display: block;
+  position: absolute;
+  width: 55%;
+  height: 100%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1199.98px) {
+  .bg-pattern {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1199.98px) {
+  .bg-pattern {
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
